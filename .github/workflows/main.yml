@@ -20,7 +20,7 @@ jobs:
           key: ${{ secrets.SERVER_SSH_KEY }}
 
           script: |
-            cd /home/ubuntu/airflow-project
+            cd /home/ubuntu/analytics-dag
 
             git pull origin ${GITHUB_REF_NAME}
 
