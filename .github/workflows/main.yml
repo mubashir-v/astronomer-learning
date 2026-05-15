@@ -27,9 +27,9 @@ jobs:
             astro dev parse
 
             if [ "${GITHUB_REF_NAME}" = "develop" ]; then
-              astro deploy --deployment-id DEV_DEPLOYMENT_ID
+              astro deploy --deployment-id cmp74is0w4k9p01orl52t9hc6
             fi
 
             if [ "${GITHUB_REF_NAME}" = "main" ]; then
-              astro deploy --deployment-id PROD_DEPLOYMENT_ID
+              astro deploy --deployment-id cmp74is0w4k9p01orl52t9hc6
             fi
