@@ -20,7 +20,7 @@ jobs:
           key: ${{ secrets.SERVER_SSH_KEY }}
 
           script: |
-            cd /home/ubuntu/analytics-dag
+            cd /home/ubuntu/astronomer-learning
 
             git pull origin ${GITHUB_REF_NAME}
 
