@@ -24,7 +24,7 @@ default_args = {
 
 
 with DAG(
-    dag_id="sample_python_dag",
+    dag_id="sample_python_dag_two",
     default_args=default_args,
     description="Simple sample DAG",
     start_date=datetime(2025, 1, 1),
